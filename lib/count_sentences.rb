@@ -20,3 +20,4 @@ class String
 
   end
 end
+sentence_count = txt.split(/\.|\?|!/).length
