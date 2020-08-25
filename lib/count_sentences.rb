@@ -16,7 +16,7 @@ class String
   end
 
   def count_sentences
-    self.txt.split(/\.|\?|!/).length 
+   self.string.squeeze('.!?').count('.!?')
 
   end
 end
