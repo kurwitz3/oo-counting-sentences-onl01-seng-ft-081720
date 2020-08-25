@@ -5,10 +5,7 @@ class String
   def sentence?(sentence)
     @sentence? 
     sentence.end_with?(".")
-    
-    
-    
-  end
+    end
 
   def question?
 
